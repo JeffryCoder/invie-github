@@ -4,19 +4,29 @@
     <meta charset="utf-8">
     <title>Invie</title>
     <style media="screen">
-      body
-      {
+      body{
         margin: 0;
         border: 10px solid #192b36;
+
       }
-      img
-      {
+      img {
           max-width: 100%;
           vertical-align: top;
+          /*display: none;*/
+      }
+     img#responsive {
+        display: none;
+      }
+
+      @media screen and (max-width: 768px){
+        img#responsive {
+          display: block;
+        }
       }
     </style>
   </head>
   <body>
+    <img src="invie-responsive.png" alt="" id="responsive">
     <img src="header.jpg" alt="">
     <img src="hero.jpg" alt="">
     <img src="acustica.jpg" alt="">

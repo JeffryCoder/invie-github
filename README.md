@@ -1,2 +1,4 @@
-# invie-github
-Tus mejores guitarrras invie-sibles Repositorio creado del curso Git y Github de Platzi by @platzi
+# invie
+Las guitarras más locas
+
+http://jeffrycoder.github.io/invie-github/
